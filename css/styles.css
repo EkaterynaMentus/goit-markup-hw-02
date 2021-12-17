@@ -24,7 +24,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 .logo-color {
   color: var(--accent-color);
@@ -33,14 +33,14 @@ body {
   color: var(--secondary-text-color);
   font-weight: 500;
 
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-link {
   color: var(--primary-text-color);
   font-weight: 500;
 
-  line-height: 1, 14x;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .header-link:focus,
@@ -59,7 +59,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   color: var(--third-color);
   text-align: center;
   letter-spacing: 0.06em;
@@ -71,7 +71,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   border: none;
   cursor: pointer;
   letter-spacing: 0.06em;
@@ -80,20 +80,20 @@ body {
 .about-title {
   font-weight: 700;
 
-  line-height: 1, 14;
+  line-height: 1.14;
 
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 .about-after-title {
-  line-height: 1, 71;
+  line-height: 1.71;
 }
 /* What we do */
 .we-do-title {
   color: var(--secondary-text-color);
-  font-weight: b700;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
 }
 /* Our team */
@@ -102,21 +102,21 @@ body {
 }
 .our-team-title {
   color: var(--secondary-text-color);
-  font-weight: b700;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
 }
 .team-name-title {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-align: center;
 }
 .team-after-name {
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-align: center;
 }
 /* Filters */
@@ -147,12 +147,19 @@ body {
 }
 .projects-after-title {
   font-size: 16px;
-  line-height: 1, 86;
+  line-height: 1.86;
 }
 
 /* Footer */
 .footer-section {
   background-color: #2f303a;
+}
+.logo-footer {
+  color: var(--third-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .address-link {
   color: var(--third-color);
