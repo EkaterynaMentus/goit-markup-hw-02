@@ -39,7 +39,7 @@ body {
 .nav-link {
   color: var(--primary-text-color);
   font-weight: 500;
-
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -79,13 +79,14 @@ body {
 /* About us */
 .about-title {
   font-weight: 700;
-
+  font-size: 14px;
   line-height: 1.14;
-
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 .about-after-title {
+  font-size: 14px;
   line-height: 1.71;
 }
 /* What we do */
@@ -119,7 +120,7 @@ body {
   line-height: 1.19;
   text-align: center;
 }
-/* Filters */
+/* Projects */
 .filters-btn {
   color: var(--secondary-text-color);
   font-family: inherit;
@@ -137,10 +138,10 @@ body {
   background-color: var(--accent-color);
   color: var(--third-color);
 }
-/* Projects */
+
 .projects-title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -166,8 +167,9 @@ body {
 }
 .address-item,
 .contact-link {
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
   line-height: 1.71;
 }
 .contact-link {
